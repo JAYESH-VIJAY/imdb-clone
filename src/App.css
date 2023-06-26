@@ -1,0 +1,356 @@
+.seelist {
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 2.4rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 1.6;
+}
+
+.nav-bar {
+  padding: 1.6rem 4.8rem;
+  background-color: rgb(74, 34, 168);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr auto;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.logo {
+  height: 6rem;
+  width: 8rem;
+}
+.search {
+  padding: 1.6rem;
+  max-width: 32rem;
+  border-radius: 0.8rem;
+  outline: none;
+  border: 2px solid rgba(211, 191, 191, 0.247);
+  font: optional;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.search::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(30, 114, 187);
+  opacity: 1; /* Firefox */
+}
+.search:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(30, 114, 187);
+}
+.search::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(30, 114, 187);
+}
+.search::-webkit-search-cancel-button {
+  /* -webkit-appearance: none; */
+  font-size: 3.2rem;
+  cursor: pointer;
+}
+
+.found {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.box {
+  /* background-color: rgb(44, 43, 43); */
+  border-radius: 0.8rem;
+  /* min-height: 16rem; */
+}
+.movie-image {
+  height: 8rem;
+  width: 6rem;
+}
+.year,
+.rating {
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+.name {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.movie-container {
+  padding: 0.8rem;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.icon {
+  font-size: 1.8rem;
+  font-weight: 600;
+  float: right;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 6px rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.movies {
+  display: flex;
+  /* border:2px solid red; */
+  width: 80%;
+  margin: 0 auto;
+  gap: 2.4rem;
+  justify-content: center;
+}
+.watch-section {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  line-height: 2;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: -1.6rem;
+}
+
+.watch-section > .detail {
+  display: flex;
+  font-size: 1.4rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.back-btn {
+  position: absolute;
+  background-color: #fff;
+  width: 3.2rem;
+  height: 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 50%;
+  margin: 0.4rem 0 0 0.4rem;
+}
+.selected-movie-container {
+  display: flex;
+  gap: 2.4rem;
+  background-color: rgb(50, 50, 54);
+}
+.selected-poster {
+  margin: 1.6rem 0;
+  margin-left: 1.6rem;
+  height: 16rem;
+  width: 12rem;
+}
+
+.movie-details {
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-top: -1.6rem;
+  justify-content: center;
+  /* align-items: center; */
+}
+.movie-name {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+.release {
+  display: flex;
+  gap: 1.6rem;
+  font-size: 1.2rem;
+}
+
+.movie-overview {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin: 1.6rem;
+}
+.staring,
+.director,
+.l-c-b {
+  display: flex;
+  gap: 2.4rem;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+}
+
+.add-btn {
+  padding: 1.2rem 0;
+  width: 24rem;
+  margin: 0 auto;
+  display: block;
+  border-radius: 0.8rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: rgb(66, 23, 167);
+  border: 2px solid #3b3535;
+  outline: none;
+}
+
+.mymovie {
+  border-top: 2px dashed #615252;
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  font-size: 1.6rem 0 0.4rem 0;
+  text-transform: capitalize;
+}
+.my-m {
+  display: flex;
+  gap: 4.8rem;
+}
+.movie-poster {
+  height: 8rem;
+  width: 6rem;
+}
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  line-height: 1.6;
+}
+.movie-title {
+  font-size: 1.6rem;
+}
+.data-container {
+  display: flex;
+  gap: 2.4rem;
+  font-size: 1.4rem;
+}
+
+/*spacing-system(px): 2/4/8/12/16/24/32/48/64/80/96/128 
+font-size-system(px):10/12/14/16/18/20/24/30/36/44/52/62/74/86/98*/
+
+/* --------------------media query below 350px ------------------- */
+
+@media (max-width: 350px) {
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem !important;
+  }
+
+  .logo {
+    height: 5rem !important;
+    width: 10rem !important;
+  }
+  .search {
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+  }
+  .search::-webkit-search-cancel-button {
+    font-size: 2.4rem;
+  }
+
+  .box {
+    margin: 0 auto;
+    margin-top: 1.6rem;
+    width: 95% !important;
+  }
+  .movie-image {
+    height: 8rem;
+    width: 6rem;
+  }
+  .year,
+  .rating {
+    line-height: 1.6;
+    font-size: 1.2rem;
+  }
+  .name {
+    line-height: 1.6;
+    font-size: 1.3rem;
+    letter-spacing: 0px;
+  }
+
+  .icon {
+    width: 1.6rem;
+    height: 1.6rem;
+    box-shadow: 0 1px 6px rgba(255, 255, 255, 0.233);
+  }
+
+  .movies {
+    width: 95%;
+    gap: 0.4rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* --------------------media queary between 300 px to 576px ----------------- */
+@media ((max-width: 576px) and (min-width:350px)) {
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .logo {
+    height: 5rem !important;
+    width: 10rem !important;
+  }
+  .search {
+    padding: 1.6rem 2rem;
+    width: 20rem;
+    font-size: 1.2rem;
+  }
+
+  .box {
+    width: 95% !important;
+    margin: 0 auto;
+    margin-top: 1.6rem;
+  }
+  .movie-image {
+    height: 8rem;
+    width: 6rem;
+  }
+  .year,
+  .rating {
+    line-height: 1.6;
+    font-size: 1.2rem;
+  }
+  .name {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    letter-spacing: 0px;
+  }
+
+  .icon {
+    width: 1.6rem;
+    height: 1.6rem;
+    box-shadow: 0 1px 6px rgba(255, 255, 255, 0.233);
+  }
+
+  .movies {
+    width: 100%;
+    gap: 0.4rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 450px) {
+  .box {
+    width: 85% !important;
+    margin: 0 auto;
+    margin-top: 1.6rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .movies {
+    width: 95%;
+  }
+}
